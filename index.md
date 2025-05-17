@@ -58,21 +58,16 @@
 </head>
 <body>
 
-  <header>
-    <h1>Mi Top 10 Videojuegos Favoritos</h1>
-  </header>
-	
+<header>
+  <h1>Mi Top 10 Videojuegos Favoritos</h1>
   <p>
   <ul align = "center">
-      <a href = "sitio_web/index.html">INICIO</a>
-      <a href = "">TOP</a>
-      <a href = "">RESEÑAS</a>
+      <a href = "/sitio_web/index.html">INICIO</a>
+      <a href = "/sitio_web/index.htm">TOP</a>
+      <a href = "/sitio_web/index.md">RESEÑAS</a>
   </ul>
   </p>
-  <main>
-
-
-
+  </header>
 
   
   </main>
