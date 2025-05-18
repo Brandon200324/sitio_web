@@ -37,37 +37,24 @@
       line-height: 1.5;
     }
 
-    .juego {
-      text-align: center;
-      margin-top: 2rem;
-    }
-
-    .juego img {
-      width: 200px;
-      height: 300px;
-      margin: 1rem 0;
-    }
-
     footer {
       text-align: center;
       bottom: 0;
       width: 100%;
       padding: 3rem;
     }
-    nav {
-      background-color: #333;
-      padding: 10px;
-    }
-
-    nav a {
+    .link-boton {
+      background-color: #28a745;
       color: white;
-      margin-right: 15px;
+      padding: 10px 20px;
+      border-radius: 8px;
       text-decoration: none;
+      display: inline-block;
+      transition: background-color 0.3s;
     }
 
-    section {
-      padding: 20px;
-      margin-top: 20px;
+    .link-boton:hover {
+      background-color: #218838;
     }
 
   </style>
@@ -78,9 +65,9 @@
   <h1>Mi Top 10 Videojuegos Favoritos</h1>
   <p>
   <ul align = "center">
-      <a href = "/sitio_web/index.html"> INICIO    </a>
-      <a href = "/sitio_web/top.html">    TOP    </a>
-      <a href = "/sitio_web/criticas.html">    RESEÑAS </a>
+      <a href = "/sitio_web/index.html" class="link-boton"> INICIO    </a>
+      <a href = "/sitio_web/top.html" class="link-boton">    TOP    </a>
+      <a href = "/sitio_web/criticas.html" class="link-boton">    RESEÑAS </a>
   </ul>
   </p>
   </header>
